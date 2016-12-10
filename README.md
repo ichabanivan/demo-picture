@@ -23,13 +23,13 @@
         <!-- Грузовая машина-->
         <!-- >1170 -->
         <source media="(min-width: 1170px)" srcset="1.svg"></source>
-        <!--Кран-->
+        <!-- Кран -->
         <!-- 768 - 1170 -->
         <source media="(min-width: 768px)" srcset="2.svg"></source>
-        <!--Каток-->
+        <!-- Каток -->
         <!-- 480 - 768 -->
         <source media="(min-width: 480px)" srcset="3.svg"></source>
-        <!--Трактор-->
+        <!-- Трактор -->
         <!-- <480 -->
         <img src="4.svg" alt="bg">
     </picture>

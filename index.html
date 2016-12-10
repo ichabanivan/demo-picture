@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .img{
+            width: 100%;
+            max-width: 400px;
+            height: 100%;
+            margin: 0 auto;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="img">
+    <picture>
+        <!-- Грузовая машина-->
+        <!-- >1170 -->
+        <source media="(min-width: 1170px)" srcset="1.svg"></source>
+        <!--Кран-->
+        <!-- 768 - 1170 -->
+        <source media="(min-width: 768px)" srcset="2.svg"></source>
+        <!--Каток-->
+        <!-- 480 - 768 -->
+        <source media="(min-width: 480px)" srcset="3.svg"></source>
+        <!--Трактор-->
+        <!-- <480 -->
+        <img src="4.svg" alt="bg">
+    </picture>
+</div>
+</body>
+</html>

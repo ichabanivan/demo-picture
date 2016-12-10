@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        body{
+            background-color: #000000;
+        }
         .img{
             width: 100%;
             max-width: 400px;
@@ -20,8 +23,11 @@
 <body>
 <div class="img">
     <picture>
+        <!-- Без картинки-->
+        <!-- > 1300 -->
+        <source media="(min-width: 1300px)" srcset="px.png"></source>
         <!-- Грузовая машина-->
-        <!-- >1170 -->
+        <!-- > 1170 -->
         <source media="(min-width: 1170px)" srcset="1.svg"></source>
         <!-- Кран -->
         <!-- 768 - 1170 -->
@@ -30,7 +36,7 @@
         <!-- 480 - 768 -->
         <source media="(min-width: 480px)" srcset="3.svg"></source>
         <!-- Трактор -->
-        <!-- <480 -->
+        <!-- < 480 -->
         <img src="4.svg" alt="bg">
     </picture>
 </div>

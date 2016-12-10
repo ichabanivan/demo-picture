@@ -23,6 +23,7 @@
 <body>
 <div class="img">
     <picture>
+        <!--[if IE 9]><video style="display: none;"><![endif]-->
         <!-- Без картинки-->
         <!-- > 1300 -->
         <source media="(min-width: 1300px)" srcset="px.png"></source>
@@ -35,6 +36,7 @@
         <!-- Каток -->
         <!-- 480 - 768 -->
         <source media="(min-width: 480px)" srcset="3.svg"></source>
+        <!--[if IE 9]></video><![endif]-->
         <!-- Трактор -->
         <!-- < 480 -->
         <img src="4.svg" alt="bg">
